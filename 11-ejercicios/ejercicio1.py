@@ -7,7 +7,10 @@ def mostrar(numeros):
         print(item)
 
 def buscar(numeros, numero):
-    print(numero in numeros)
+    try:
+        print(numero in numeros)
+    except:
+        print("El numero no existe en la lista")
 
 
 
